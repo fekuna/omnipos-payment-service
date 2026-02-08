@@ -15,7 +15,7 @@ import (
 	"github.com/fekuna/omnipos-payment-service/internal/payment/usecase"
 	"github.com/fekuna/omnipos-pkg/database/postgres"
 	"github.com/fekuna/omnipos-pkg/logger"
-	paymentv1 "github.com/fekuna/omnipos-proto/proto/payment/v1"
+	paymentv1 "github.com/fekuna/omnipos-proto/gen/go/omnipos/payment/v1"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

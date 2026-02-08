@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/fekuna/omnipos-pkg/logger"
-	paymentv1 "github.com/fekuna/omnipos-proto/proto/payment/v1"
+	paymentv1 "github.com/fekuna/omnipos-proto/gen/go/omnipos/payment/v1"
 	"github.com/jmoiron/sqlx"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

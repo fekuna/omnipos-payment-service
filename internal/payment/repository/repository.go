@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	paymentv1 "github.com/fekuna/omnipos-proto/proto/payment/v1"
+	paymentv1 "github.com/fekuna/omnipos-proto/gen/go/omnipos/payment/v1"
 )
 
 type Repository interface {
